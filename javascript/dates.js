@@ -1,0 +1,17 @@
+let mydate = new Date();
+console.log(mydate);
+console.log(mydate.getTime());
+console.log(mydate.getTimezoneOffset());
+console.log(mydate.toDateString());
+console.log(mydate.toDateString());
+console.log(mydate.toLocaleDateString());
+console.log(typeof mydate);
+const newdate = new Date(2023, 0, 23);
+console.log(newdate);
+const date = new Date("2023-01-13");
+console.log(date.toLocaleString);
+let mytimestamp = Date.now();
+console.log(mytimestamp);
+// console.log(mytimestamp.getTime());
+console.log(Math.floor(Date.now() / 1000));
+console.log(Date());
